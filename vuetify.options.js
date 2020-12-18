@@ -1,8 +1,7 @@
-export default function ({app}) {
+import colors from 'vuetify/es5/util/colors'
+
+export default function (ctx) {
   return {
-    breakpoint: {},
-    icons: {},
-    lang: {},
     theme: {
       dark: true,
       themes: {
